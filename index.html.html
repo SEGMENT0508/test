@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMEPAGE :)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('asset4.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            overflow-x: hidden; /* Prevent horizontal overflow */
+        }
+        header {
+            background-color: rgba(240, 240, 240, 0.8);
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 10px; /* Added padding for spacing */
+        }
+        nav a:hover {
+            background-color: #444;
+        }
+        section {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            margin: 20px auto; /* Center the sections */
+            border-radius: 10px;
+            max-width: 800px; /* Added max-width for responsiveness */
+        }
+        footer {
+            background-color: rgba(240, 240, 240, 0.8);
+            padding: 10px;
+            text-align: center;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            display: block; /* Center the image */
+            margin: 20px auto;
+        }
+        @media (max-width: 768px) {
+            nav a {
+                display: block;
+                padding: 10px 0;
+            }
+            section {
+                margin: 10px;
+                padding: 15px;
+            }
+            img {
+                width: 150px;
+                height: 150px;
+            }
+        }
+        @media (max-width: 480px) {
+            header {
+                padding: 15px;
+            }
+            nav {
+                padding: 8px;
+            }
+            section {
+                margin: 5px;
+                padding: 10px;
+            }
+            img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HOMEPAGE :)</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="hobbie.html">My Hobbies</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! My name is Ayush, and I'm a Student of grade 10th :). If you want to know more about me just click on the top center link called "About Me".</p>
+            <img src="asset.jpg" alt=":)" width="400" height="350">
+        </section>
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Football</li>
+                <li>Reading Books</li>
+                <li>If you want to know more about my hobbies just click on the top center link called "Hobbies".</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>You can reach me at or you can explore the contact page on the upper top center called "Contact" <a href="mailto:ayush@gmail.com">ayush@gmail.com :)</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>Thank You :)</p>
+    </footer>
+</body>
+</html>
